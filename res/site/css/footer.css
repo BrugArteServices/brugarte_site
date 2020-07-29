@@ -1,0 +1,10 @@
+footer {
+    background-color: #2D3436;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer .footer-copyright {
+    background-color: #4A575D;
+    color: #fff;
+}

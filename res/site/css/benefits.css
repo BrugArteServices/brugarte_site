@@ -1,0 +1,32 @@
+section.benefits .section-heading {
+    margin-bottom: 100px;
+}
+  
+section.benefits .section-heading h2 {
+    margin-top: 0;
+}
+section.benefits .section-heading p {
+    margin-bottom: 0;
+}
+section.benefits .benefit-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+section.benefits .benefit-item h3 {
+    font-size: 30px;
+}
+section.benefits .benefit-item i {
+    font-size: 80px;
+    display: block;
+    margin-bottom: 15px;
+    background: linear-gradient(to left, rgba(205,141,176,1), rgba(39,34,38,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s ease;
+}
+section.benefits .benefit-item:hover i {
+    background: linear-gradient(to left, rgba(205,141,176,1), rgba(205,141,176,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

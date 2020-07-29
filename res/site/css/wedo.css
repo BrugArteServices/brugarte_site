@@ -1,0 +1,42 @@
+section.wedo {
+    position: relative;
+}
+
+section.wedo .card {
+    background-color: rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    transition: top .3s;
+    top: 0;
+}
+
+section.wedo .card:hover {
+    top: -10px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+section.wedo .card .card-body .card-title {
+    text-align: center;
+    font-size: 26px;
+}
+
+section.wedo .card .list-group-item {
+    background-color: transparent;
+    border: none;
+    text-align: left;
+}
+section.wedo .card .list-group-item i {
+    color: #2ecc71;
+    margin-right: 12px;
+}
+
+section.wedo .card:hover .list-group-item i {
+    color: #3498db;
+}
+
+section.wedo .card .card-body p {
+    font-size: 20px;
+    font-weight: bold;
+}
+section.wedo .card .btn {
+    width: 100%;
+}

@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #5983bf;
+    --primary-color-hover: #70AD4E;
+}
+.preloader {
+    height: 100%;
+    width: 100%;
+    background-color:#2c3133;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+.preloader .loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-image: url('../img/preloading.svg');
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+section {
+    padding: 100px 0;
+    color: white;
+}
+section.min {
+    padding: 50px 0;
+    color: white;
+}
+
+section:nth-child(even) {
+    background-color:#2c3133;
+    background-image: url("../img/bg-pattern.png");
+}
+section:nth-child(odd) {
+    background-color:#2d3436;
+}
+
+section .section-heading h2 {
+    text-transform: uppercase;
+}
+
+.transition {
+    -webkit-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s;
+}
+.btn-default {
+    padding: 15px 30px;
+    background: rgb(89,131,191);
+    background: radial-gradient(circle, rgba(89,131,191,1) 0%, rgba(89,165,191,1) 100%);
+    color: #FFFFFF;
+    border-radius: 100px;
+    text-transform: uppercase;
+    margin-top: 14px;
+    font-size: 14px;
+    -webkit-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s;
+}
+.btn-default:hover {
+    background: rgb(112,173,78);
+    background: radial-gradient(circle, rgba(112,173,78,1) 0%, rgba(110,173,78,1) 100%);
+}

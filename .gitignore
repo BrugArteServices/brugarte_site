@@ -1,0 +1,4 @@
+/admin/
+/vendor/
+composer.lock
+env.php

@@ -1,0 +1,46 @@
+header {
+    min-height:800px; 
+    background: rgb(205,141,176);
+    background: radial-gradient(circle, rgba(205,141,176,1) 0%, rgba(39,34,38,1) 100%);
+}
+
+header .deli-text,
+header .deli-text-2 {
+    margin-top: -15px;
+}
+
+header .deli-text {
+    background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: slidebackground 5s infinite;
+}
+
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #FFFFFF;
+    position: relative;
+    border-radius: 20px;
+    -webkit-transition: background-color 0.2s;
+    -ms-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #5983bf;
+    color: #FFF;
+    margin: 0;
+    border-radius: 20px;
+}
+
+
+
+@-webkit-keyframes slidebackground {
+    0% {
+        background-position: -720px 0;
+    }
+    100% {
+        background-position: 720px 0;
+    }
+}

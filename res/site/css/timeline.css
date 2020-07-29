@@ -1,0 +1,130 @@
+section.process {
+    position: relative;
+    background-image: url("../img/bg-timeline.jpg");
+    background-position: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+section.process .section-heading {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+} 
+section.process .section-heading h2 {
+    color: white;
+    margin-top: 0;
+    z-index: 3;
+}
+section.process .section-heading p {
+    margin-bottom: 0;
+    z-index: 3;
+}
+section.process .timeline {
+    position: relative;
+    height: 125px;
+}
+section.process .timeline-icon,
+section.process .stage {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+section.process .timeline:after,
+section.process .timeline:before {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both
+}
+section.process .timeline:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2
+}
+section.process .timeline-icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 25px solid transparent;
+    border-top-color: rgba(97, 128, 192, 0.8);
+    border-right-color: rgba(97, 128, 192, 0.8);
+    z-index: 1;
+    transform: rotate(45deg)
+}
+section.process .timeline:hover .timeline-icon {
+    border-top-color: rgba(97, 128, 192, 1);
+    border-right-color: rgba(97, 128, 192, 1);
+}
+section.process .stage {
+    display: block;
+    width: 88px;
+    height: 88px;
+    line-height: 88px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(97, 128, 192, 0.8);
+    text-align: center;
+    transform: rotate(-45deg)
+}
+section.process .timeline:hover .stage {
+    color: rgba(97, 128, 192, 1);
+}
+section.process .timeline-content {
+    width: 40%;
+    float: right;
+    background: rgba(97, 128, 192, 0.8);
+    padding: 10px 10px;
+    z-index: 1;
+    position: relative;
+    border-radius: 10px;
+}
+section.process .timeline:hover .timeline-content {
+    background: rgba(97, 128, 192,1);
+}
+section.process .timeline-content p {
+    font-size: 16px;
+}
+section.process .timeline:nth-child(2n) .timeline-icon {
+    transform: rotate(-135deg);
+    border-top-color: rgba(123,175,72,0.8);
+    border-right-color: rgba(123,175,72,0.8);
+}
+section.process .timeline:nth-child(2n):hover .timeline-icon {
+    border-top-color: rgba(123,175,72,1);
+    border-right-color: rgba(123,175,72,1);
+}
+section.process .timeline:nth-child(2n) .stage {
+    transform: rotate(135deg);
+    color: rgba(123,175,72,0.8);
+}
+section.process .timeline:nth-child(2n):hover .stage {
+    color: rgba(123,175,72,1);
+}
+section.process .timeline:nth-child(2n) .timeline-content {
+    float: left
+}
+section.process .timeline:nth-child(2n) .timeline-content {
+    background: rgba(123,175,72,0.8);
+}
+section.process .timeline:nth-child(2n):hover .timeline-content {
+    background: rgba(123,175,72,1);
+}
+section.process .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 0;
+}

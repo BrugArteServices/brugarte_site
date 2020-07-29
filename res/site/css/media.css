@@ -1,0 +1,66 @@
+@media (min-width: 992px) {
+    section.features .device-container {
+      margin-bottom: 0;
+    }
+}
+@media (max-width: 992px) {
+    .app-img {
+        display: none;
+    }
+    header {
+        min-height: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .menu {
+        background-color:rgba(0, 0, 0, 0.5);
+    }
+    .navbar-nav .nav-link {
+        margin-left: 10px;
+        border-radius: 0px;
+        -webkit-transition: 0.2s;
+        -ms-transition: 0.2s;
+        transition: 0.2s;
+    }
+    .navbar-nav .nav-link:hover {
+        background-color:rgba(0, 0, 0, 0.2);
+        border-radius: 0px;
+        margin-left: 5px;
+    }
+  }
+@media only screen and (max-width: 500px) {
+    .deli-text {
+        font-size: 66px;
+    }
+}
+@media only screen and (max-width:767px) {
+    section.process .timeline {
+        margin-top: 20px;
+        overflow: hidden;
+        height: auto;
+    }
+    section.process .timeline:before,
+    section.process .timeline:nth-child(2n):before {
+        box-shadow: none
+    }
+    section.process .timeline-icon,
+    section.process .timeline:nth-child(2n) .timeline-icon {
+        margin-top: -30px;
+        margin-bottom: 20px;
+        position: relative;
+        transform: rotate(135deg)
+    }
+    section.process .timeline:nth-child(2n) .stage,
+    section.process .stage {
+        transform: rotate(-135deg)
+    }
+    section.process .timeline-content,
+    section.process .timeline:nth-child(2n) .timeline-content {
+        width: 100%;
+        float: none;
+        border-radius: 0 0 20px 20px;
+        text-align: center;
+        padding: 25px 20px;
+        margin: 0 auto
+    }
+}
